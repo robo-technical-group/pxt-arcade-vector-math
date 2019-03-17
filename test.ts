@@ -21,7 +21,7 @@ function resetBoard() {
     beginSprite.y = Math.randomRange(0, screen.height)
     endSprite.x = Math.randomRange(0, screen.width)
     endSprite.y = Math.randomRange(0, screen.height)
-    let vector: vectorMath.Vector =
+    let vector: Vector =
         vectorMath.createVectorFromSprites(beginSprite, endSprite)
     beginSprite.vx = vector.x
     beginSprite.vy = vector.y
