@@ -4,7 +4,7 @@ Extension for manipulating vectors
 
 ## TODO
 
-- [ ] See it in action at 
+- [ ] See it in action at https://makecode.com/_EwLW7DcJuRKL
 - [ ] Add "icon.png" image (300x200) in the root folder
 - [ ] Add "- beta" to the GitHub project description if you are still iterating it.
 - [ ] Turn on your automated build on https://travis-ci.org
