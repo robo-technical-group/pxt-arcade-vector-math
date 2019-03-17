@@ -1,6 +1,6 @@
 {
     "name": "pxt-arcade-vector-math",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "",
     "dependencies": {
         "device": "*"
@@ -12,6 +12,5 @@
     "testFiles": [
         "test.ts"
     ],
-    "public": false,
-    "additionalFilePaths": []
+    "public": false
 }
