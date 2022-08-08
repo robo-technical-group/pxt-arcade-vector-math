@@ -118,7 +118,6 @@ namespace vectorMath {
      */
     //% blockId=vectormath_create_vector_from_sprites
     //% block="create vector from sprite %spriteFrom to sprite %spriteTo"
-    //% spriteFrom.defl=mySprite spriteTo.defl=otherSprite
     export function createVectorFromSprites(spriteFrom: Sprite, spriteTo: Sprite): Vector {
         let mag = Math.sqrt((spriteFrom.x - spriteTo.x) ** 2 + (spriteFrom.y - spriteTo.y) ** 2)
         let dir = Vector.rad2deg(Math.atan2(spriteTo.y - spriteFrom.y, spriteTo.x - spriteFrom.x))
